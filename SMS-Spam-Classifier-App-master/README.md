@@ -2,7 +2,7 @@
 
 
 <div style="text-align:center">
-    <img src ="https://github.com/pau-lo/SMS-Spam-Classifier-App/blob/master/SMS-Spam-Classifier/img/sms-predictor.png"></div>
+    <img src ="https://github.com/pau-lo/using-nlp-for-naive-bayes-classification/blob/main/SMS-Spam-Classifier-App-master/ham-or-spam-nb-classifier/figures/img/app.PNG"></div>
 
 ## Overview
 
