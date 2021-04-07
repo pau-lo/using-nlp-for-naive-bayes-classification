@@ -20,7 +20,7 @@ def predict():
     based on comments user inputs.
     """
     # loading our dataset
-    data_path = "/home/paul/workspace/data-science/my-projects/SMS-Spam-Classifier-App-master/ham-or-spam-nb-classifier/data/processed/"  # noqa
+    data_path = "../data/processed/"
     df = pd.read_csv(
         data_path + "spam_processed.csv", delimiter=",", encoding="latin-1"
     )
@@ -38,7 +38,7 @@ def predict():
     X = cv.fit_transform(df["message"])
     y = df["label"]
     # loading our saved naive bayes model
-    joblib_path = "/home/paul/workspace/data-science/my-projects/SMS-Spam-Classifier-App-master/ham-or-spam-nb-classifier/models/"  # noqa
+    joblib_path = "../../models/"
     naive_bayes_model = open(joblib_path + "model.joblib", "rb")
     clf = load(naive_bayes_model)
 
