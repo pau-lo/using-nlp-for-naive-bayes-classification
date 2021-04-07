@@ -19,24 +19,19 @@ Data source: [kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset?s
 
 **Overview of ML Process:**
 
-- Business understanding
+- Business understanding: Not enable in this prototype app.
 - Data understanding
 - Data preparation
 - Modeling
 - Evaluation
 - Deployment
 
-### Question to answer:
+## Question to answer:
 
-Can you use this dataset to build a prediction model that will accurately classify which texts are spam?
+Can you use this dataset to build a prediction model that will accurately classify which texts are spam or ham?
 
 - This model will classifiy whether a text is spam or ham.
 - Will make a small flask app prototype to let users and stakeholders test it out on the browser.
-
-#### Naive Bayes Classifier:
-
-- A model that returns predictions for ham or spam based on user iput comments.
-
 
 ## Dependencies
 
