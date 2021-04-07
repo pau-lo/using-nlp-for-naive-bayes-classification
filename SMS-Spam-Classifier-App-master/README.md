@@ -2,7 +2,7 @@
 
 
 <div style="text-align:center">
-    <img src ="https://github.com/pau-lo/SMS-Spam-Classifier-App/blob/master/SMS-Spam-Classifier/img/sms-predictor.png"></div>
+    <img src ="https://github.com/pau-lo/using-nlp-for-naive-bayes-classification/blob/main/SMS-Spam-Classifier-App-master/ham-or-spam-nb-classifier/figures/img/app.PNG"></div>
 
 ## Overview
 
@@ -19,24 +19,19 @@ Data source: [kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset?s
 
 **Overview of ML Process:**
 
-- Business understanding
+- Business understanding: Not enable in this prototype app.
 - Data understanding
 - Data preparation
 - Modeling
 - Evaluation
 - Deployment
 
-### Question to answer:
+## Question to answer:
 
-Can you use this dataset to build a prediction model that will accurately classify which texts are spam?
+Can you use this dataset to build a prediction model that will accurately classify which texts are spam or ham?
 
 - This model will classifiy whether a text is spam or ham.
 - Will make a small flask app prototype to let users and stakeholders test it out on the browser.
-
-#### Naive Bayes Classifier:
-
-- A model that returns predictions for ham or spam based on user iput comments.
-
 
 ## Dependencies
 
